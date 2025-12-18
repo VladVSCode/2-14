@@ -1,0 +1,16 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.example.electronbuild
+productName: ElectronBuildApp
+files:
+  - filter:
+      - src/**/*
+      - index.html
+      - node_modules/**/*
+win:
+  target:
+    - target: nsis
+      arch:
+        - x64
+electronVersion: 39.2.7
