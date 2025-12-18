@@ -1,10 +1,22 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-  <meta charset="UTF-8">
-  <title>Electron Build</title>
+    <meta charset="UTF-8">
+    <title>Electron Build</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Electron-додаток успішно зібрано</h1>
+
+    <h1>Мій оновлений Electron-додаток</h1>
+    <p>Це інтерфейс, який я модифікував для лабораторної роботи.</p>
+
+    <button id="myButton">Натисни мене</button>
+
+    <script>
+        document.getElementById("myButton").addEventListener("click", () => {
+            alert("Кнопка працює!");
+        });
+    </script>
+
 </body>
 </html>
